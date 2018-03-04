@@ -1,0 +1,4 @@
+1)First copy the input test and training dataset as they are in the hw
+2) run python scaledata.py to generate scaled datasets
+3) run python knn.py to get output in command prompt
+4)As mentioned output is mentioned separately in the output.txt file
