@@ -1,0 +1,13 @@
+Instructions to run
+
+Code files
+1)part1.py – takes train.data and train.label as input
+output -fileans.txt (file with top 100 information gains and row values in the sparse matrix)
+run this code as python part1.py
+this code will take exactly 30 minutes to run as dataset is large
+2)part2.py –takes train.data,train.label and fileans.txt from part 1 to perform logistic regression using gradient descent
+output- warray.txt ( file with the weight array) this code will also take 10-15 minutes to run.
+3)part3.py – takes test.data,test.label and warray.txt from part 2 to provide prediction with accuracy , confusion matrix ,precision,recall and sorted weights
+
+The input files can be gathered from the assignment train.data,train.label,test.data and test.label
+You can place all files 4 input files and 3 code files and run the program one by one to get the results

@@ -1,0 +1,22 @@
+Follow the steps to run the program
+
+1)Copy phish_train.csv and phish_test.csv from the homework question
+2)Run the program using - python naive_bayes.py
+3)The code will print most of the output which is as follows-
+ 
+ karan@karan-PORTEGE-R830:~/mlAssign1$ python naive_bayes.py 
+class probabilities:
+0 :0.073
+1 :0.416
+-1 :0.511
+writing all values for P(C) in file probc.txt....
+Estimated value of P(xi|C) for C=0 and x2=-1 :
+0.425165562914
+accuracy for test set:
+82.1529745042
+accuracy for train set:
+83.3
+karan@karan-PORTEGE-R830:~/mlAssign1$ 
+
+4)Some of the code output is printed in probc.txt
+5)After every run you need to delete probc.txt as P(xi|C=0) values are appended to file probc.txt
